@@ -1,0 +1,14 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "tslint.enable": true,
+
+    "editor.formatOnType": true,
+
+    "editor.tabSize": 4,
+
+    "editor.insertSpaces": true,
+
+    "editor.mouseWheelZoom": true,
+
+    "workbench.editor.enablePreview": true
+}
