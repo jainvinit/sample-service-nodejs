@@ -1,0 +1,32 @@
+{
+  "name": "sample-service-nodejs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "description": "SampleService Project",
+  "keywords": [],
+  "author": "François Cantonnet",
+  "main": "dist/app.js",
+  "dependencies": {
+    "bluebird": "3.4.6",
+    "express": "4.14.0",
+    "lodash": "4.15.0",
+    "swagger-express-mw": "^0.1.0"
+  },
+  "devDependencies": {
+    "del": "2.2.2",
+    "gulp": "3.9.1",
+    "gulp-batch": "1.0.5",
+    "gulp-plumber": "1.1.0",
+    "gulp-typescript": "2.13.6",
+    "gulp-watch": "4.3.9",
+    "merge2": "1.0.2",
+    "run-sequence": "1.2.2",
+    "should": "11.1.0",
+    "supertest": "2.0.0"
+  },
+  "scripts": {
+    "start": "node dist/api/app.js",
+    "test": "swagger project test"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "declaration": false,
+        "sourceMap": false,
+        "preserveConstEnums": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "config",
+        "gulp"
+    ],
+    "files": [
+        "typings/index.d.ts"
+    ]
+}
